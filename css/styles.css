@@ -1,0 +1,46 @@
+/*Color Palette
+#A4B494 - LAUREL GREEN
+#BEC5AD - GRAY (X11 GRAY)
+#3B5249 - (ARSENIC)
+#519872 - (WINTERGREEN DREAM)
+#34252F - (JET)
+--------------*/
+
+/*Global styles
+----------------------------------*/
+body {
+  color: #34252F;
+}
+
+a {
+  color: #519872;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*Header and footer styles
+----------------------------------*/
+
+header, footer {
+  background: #34252F;
+  color: #BEC5AD;
+}
+
+header h1, header h2 {
+  color: #519872;
+}
+
+/*Work Experience styles
+----------------------------------*/
+.work {
+  background: #BEC5AD;
+}
+
+
+/*Education styles
+----------------------------------*/
+.education {
+  background: #519872;
+}
