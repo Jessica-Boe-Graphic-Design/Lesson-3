@@ -8,34 +8,75 @@
 
 /*Global styles
 ----------------------------------*/
+html {
 body {
   color: #34252F;
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 0;
 }
 
 a {
-  color: #519872;
+  color: #BEC5AD;
 }
 
 a:hover {
   text-decoration: none;
 }
 
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
+
+
 /*Header and footer styles
 ----------------------------------*/
-
 header, footer {
   background: #34252F;
   color: #BEC5AD;
 }
-
+/* Header */
+.profile-img {
+  border-radius: 50%;
+}
 header h1, header h2 {
   color: #519872;
+  margin: 0;
 }
+/* Footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  background: #3B5249;
+  padding: 20px;
+  display: inline-block;
+}
+
 
 /*Work Experience styles
 ----------------------------------*/
 .work {
   background: #BEC5AD;
+  clear: both;
 }
 
 
