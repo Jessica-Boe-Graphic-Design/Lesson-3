@@ -2,15 +2,25 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/114212683a.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jessica Boe | Resume</title>
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Work+Sans:400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
-    <header>
+    <header id="about">
+      <a href="Boe_ResumePrint.pdf" class="btn" download>Download PDF Resume</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
       <div class="content-wrap">
         <img class="profile-img col-narrow" src="images/IntroPhoto2copy1.png" alt="JessicaBoe">
         <div class="col-wide">
@@ -36,7 +46,7 @@
 </br>
 		          <span>and</span>
 		              <div class="rw-words rw-words-2">
-			                 <span>2 kids</span>
+			                 <span>two kids</span>
 			                 <span>an attitude</span>
 			                 <span>something to prove</span>
 			                 <span>an imagination</span>
@@ -45,7 +55,7 @@
 		             </div>
 	          </h2>
       </section>
-      <nav>
+      <!-- <nav>
           <div class="navmenuright">
             <li><a href="#">Contact Me</a></li>
             <li class="dropdown">
@@ -68,29 +78,32 @@
           <div class="navmenuleft">
             <li><a href="#">Home</a></li>
           </div>
-      </nav>
+      </nav>  -->
+
+
     </header>
 
     <main>
-        <section class="work">
+        <section id="work" class="work">
           <div class="content-wrap">
             <h2>Work Experience</h2>
 
             <div class="col-narrow">
-              <h3>Freelance Graphic Design & Photography</h3>
-              <p>JESSICA BOE GRAPHIC DESIGN</p>
+              <h3>Freelance Graphic Design <br> & Photography</h3>
+              <p class="uppercase">Jessica Boe Graphic Design</p>
               <p>2017-present</p>
             </div>
 
-            <div class="col-wide">
+            <div class="col-wide job-description">
               <p>
-              Logos & Branding, Package Design, Illustration, Print/Marketing, Photography
+              Logos & Branding, Package Design, Illustration, Print/Marketing, Photography<br>
+              <a href="https://www.jessicaboe.com/">www.jessicaboe.com</a>
             </p>
             </div>
 
             <div class="col-narrow">
               <h3>Paralegal</h3>
-              <p>LAW OFFICES OF JOHN T. ORCUTT</p>
+              <p class="uppercase">Law Offices of John T. Orcutt</p>
               <p>2006-2015</p>
             </div>
 
@@ -100,7 +113,7 @@
 
             <div class="col-narrow">
               <h3>Paralegal</h3>
-              <p>LAW OFFICES OF DANIEL C. CONSUEGRA</p>
+              <p class="uppercase">Law Offices of Daniel C. Consuegra</p>
               <p>2003-2006</p>
             </div>
 
@@ -110,7 +123,7 @@
 
 
             <div class="col-narrow">
-              <h2>Technical Skills</h2>
+              <h2 class="tech-skills">Technical Skills</h2>
               <p>
                 <ul>
                   <li>Adobe Illustrator</li>
@@ -123,35 +136,41 @@
           </div>
         </section>
 
-        <section class="education">
+        <section id="education" class="education">
           <div class="content-wrap">
             <h2>Education</h2>
 
             <h3>Wake Technical Community College, 2019</h3>
-            <p>AAS - ADVERTISING & GRAPHIC DESIGN</p>
+            <p class="uppercase degree">AAS - Advertising & Graphic Design</p>
 
             <h3>Wake Technical Community College, 2019</h3>
-            <p>CERTIFICATE - ADVERTISING & GRAPHIC DESIGN: ADVANCED GRAPHIC DESIGN</p>
+            <p class="uppercase degree">Certificate - Advertising & Graphic Design: Advanced Graphic Design</p>
 
             <h3>Wake Technical Community College, 2019</h3>
-            <p>CERTIFICATE - ADVERTISING & GRAPHIC DESIGN: WEB & GRAPHIC DESIGN</p>
+            <p class="uppercase degree">Certificate - Advertising & Graphic Design: Web & Graphic Design</p>
 
             <h3>HubSpot Academy, Expires May 2021</h3>
-            <p>CERTIFICATE - ADVANCED SOCIAL MEDIA STRATEGY</p>
+            <p class="uppercase degree">Certificate - Advanced Social Media Strategy</p>
           </div>
         </section>
     </main>
 
-    <footer>
+    <footer id="contact">
       <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 
         <div class="contact-info">
-            <a href="mailto:jboe@jessicaboe.com">jboe@jessicaboe.com</a>
-            <a href="http://jessicaboe.com">jessicaboe.com</a>
-            <a href="https://twitter.com/jboe17">Twitter</a>
-            <a href="https://www.linkedin.com/in/jessica-boe-a2494a8b/">LinkedIn</a>
-            <a href="https://www.facebook.com/jessicaboegraphicdesign">Facebook</a>
+            <a href="https://www.facebook.com/jessicaboegraphicdesign"><i class="fab fa-facebook-square" aria-hidden="true"></i>
+            <span class="sr-only">Facebook</a>
+            <a href="https://www.instagram.com/jessicaboegraphicdesign/"><i class="fab fa-instagram" aria-hidden="true"></i>
+            <span class="sr-only">Instagram</a>
+            <a href="https://www.pinterest.com/jessicaboe2442/"><i class="fab fa-pinterest" aria-hidden="true"></i>
+            <span class="sr-only">Instagram</a>
+            <a href="https://twitter.com/jboe17"><i class="fab fa-twitter" aria-hidden="true"></i>
+            <span class="sr-only">Twitter</a>
+            <a href="https://www.linkedin.com/in/jessica-boe-a2494a8b/"><i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            <span class="sr-only">LinkedIn</a>
+
         </div>
 
         <p>Copyright &copy; 2019 by Jessica Boe</p>
